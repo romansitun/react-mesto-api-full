@@ -1,0 +1,36 @@
+.popup__form-button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+  width: 358px;
+  height: 50px;
+  color: #ffffff;
+  font-family: "Inter", "Arial ", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  background: #000000;
+  border-radius: 2px;
+  margin-top: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  cursor: pointer;
+  transition: opacity 200ms ease-in-out;
+}
+
+.popup__form-button:hover {
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .popup__form-button {
+    width: 238px;
+    height: 46px;
+    font-size: 14px;
+  }
+}

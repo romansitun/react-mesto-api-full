@@ -1,0 +1,17 @@
+.popup__form-item-error {
+  width: 358px;
+  min-height: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.25;
+  color: #ff0000;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .popup__form-item-error {
+    width: 238px;
+  }
+}
